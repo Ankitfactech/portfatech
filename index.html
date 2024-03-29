@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Ankit Kumar's Portfolio</title>
+  <meta name="title" content="  Ankit Kumar's Portfolio">
+  <meta name="description" content="Portfolio of Ankit Kumar">
+
+  <!-- 
+    - favicon
+  <!-- -->
+  <!-- <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml"> --> -->
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images\logo.png">
+  <link rel="preload" as="image" href="p2.svg">
+  <link rel="preload" as="image" href="p2.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images\logo.png" width="119" height="37" alt="Wren logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images\logo.png" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="Timeline.html" class="navbar-link hover-1">Achievements</a>
+          </li>
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Coding Archieve</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent(Course/Task)</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+
+      </nav>
+
+      <a href="Timeline.html" class="btn btn-primary">Achievements</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Ankit Kumar</span>
+            </h1>
+            <p class="hero-text">
+              Greetings! I'm Ankit Kumar, an aspiring technophile currently pursuing my BTech degree at the esteemed NIT Jalandhar. My journey in the world of technology has been a captivating one, where I've honed my expertise in Data Structures and Algorithms while crafting captivating Frontend Web experiences. What truly sets me apart is not just my technical prowess, but also my knack for effective communication. I believe in the power of synergy between code and words, creating not just functional websites but immersive digital narratives. Join me as I embark on this exciting digital odyssey, one line of code and conversation at a time.
+            </p>
+
+            <!-- <div class="input-wrapper"> -->
+
+              <!-- <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off"> -->
+
+              <button class="btn btn-primary">
+                <span class="span"><a href="Resume.pdf">Resume Download </a> </span>
+                <button class="btx">Audio intro</button>
+                <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> -->
+              </button>
+
+            <!-- </div> -->
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="images\Ank.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="p2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="p3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="images\sha.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="images\sha.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Coding Archive
+              </h2>
+
+              <p class="card-text">
+                Go Though My different coding profile ...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="https://leetcode.com/Ankitfactech/" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images\Leetcode.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title"></span>
+                      <p class="slider-subtitle">300+ Questions</p>
+                     
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://www.codingninjas.com/studio/profile/Ankit_factech" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images\codestudio-library-16760.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Codestudio</span>
+
+                      <p class="slider-subtitle">900+ qs </p>
+                      <p class="slider-subtitle">better than 95% </p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://auth.geeksforgeeks.org/user/ankasrk123/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images\gfg_200x200-min.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title"> GFG </span>
+
+                      <p class="slider-subtitle">180+ Questions</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://github.com/Ankitfactech" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images\GitHub-Mark-ea2971cee799.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Github</span>
+
+                      <p class="slider-subtitle"></p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images\codechef-icon-380x512-r1v87w22.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Codecheff</span>
+
+                      <p class="slider-subtitle"> star</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span"> Projects</span>
+          </h2>
+
+          <p class="section-text">
+            Explore Fusion of critical thinking and creativity !!
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="images\c-2.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <!-- <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div> -->
+
+                    <div class="wrapper">
+                      <ion-icon name='trophy'></ion-icon>
+
+                      <span class="span">Open Hack IISC Banglore (2nd Runner Up)</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Factech-Farm (Crop Yeild prediction and disease detection model)
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="images\logo.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Ankit Kumar</p>
+
+                        <p class="card-subtitle">Feburary 2024</p>
+                      </div>
+                    </div>
+                    <a href="https://github.com/ayushrathore111/factech_farm" class="card-btn">Github</a>
+                    <a href="#" class="card-btn">Visit website</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="images\sama.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <!-- <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div> -->
+
+                    <div class="wrapper">
+                      <ion-icon name='trophy'></ion-icon>
+
+                      <span class="span"> Among Top Teams in Hackmol 4.0</span>
+                    </div>
+                  </div>
+
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      one Stop platform for all clubs, intern-info and canteen review
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="images\logo.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Ankit Kumar</p>
+
+                        <p class="card-subtitle">Feburary 2023</p>
+                      </div>
+                    </div>
+                    <a href="#" class="card-btn">Github</a>
+                    <a href="#" class="card-btn">view</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="images\vidysarthi.png" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <!-- <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div> -->
+
+                    <div class="wrapper">
+                      <ion-icon name='trophy'></ion-icon>
+
+                      <span class="span">Winner Fresher's Track(Hackmol 3.0)</span>
+                    </div>
+                  </div>
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      one stop Solution for all college related problems (During Corona)
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="images\logo.png" width="48" height="48" loading="lazy" alt="Joseph"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Ankit Kumar</p>
+
+                        <p class="card-subtitle">Feburary 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="https://github.com/Ankitfactech/Vidyasarthi" class="card-btn">Github</a>
+                    <a href="#" class="card-btn">view</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+           
+
+          </ul>
+          <section class="section feature" aria-label="feature" id="featured">
+            <div class="container">
+    
+              <h2 class="headline headline-2 section-title">
+                <span class="span"> Certificates</span>
+              </h2>
+    
+              <p class="section-text">
+                Certificates and Technical/IT Achievements
+              </p>
+    
+              <ul class="feature-list">
+    
+                <li>
+                  <div class="card feature-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                      <img src="images/IISC..jpg" width="1602" height="903" loading="lazy"
+                        alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-wrapper">
+                        <!-- <div class="card-tag">
+                          <a href="#" class="span hover-2">#Travel</a>
+    
+                          <a href="#" class="span hover-2">#Lifestyle</a>
+                        </div> -->
+    
+                        <div class="wrapper">
+                          <ion-icon name='trophy'></ion-icon>
+    
+                          <span class="span">Open Hack IISC Banglore (2nd Runner Up)</span>
+                        </div>
+                      </div>
+    
+                      <h3 class="headline headline-3">
+                        <a href="#" class="card-title hover-2">
+                          Certificate of Achievement 
+                        </a>
+                      </h3>
+    
+                      <div class="card-wrapper">
+    
+                        <div class="profile-card">
+                          <img src="images\logo.png" width="48" height="48" loading="lazy" alt="Joseph"
+                            class="profile-banner">
+    
+                          <div>
+                            <p class="card-title">Ankit Kumar</p>
+    
+                            <p class="card-subtitle">Feburary 2024</p>
+                          </div>
+                        </div>
+                        <!-- <a href="#" class="card-btn">Github</a> -->
+                        <a href="images\Open Hack certificate .jpeg" class="card-btn">View</a>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+                <li>
+                  <div class="card feature-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                      <img src="images\microsoft.jpg" width="1602" height="903" loading="lazy"
+                        alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-wrapper">
+                        <!-- <div class="card-tag">
+                          <a href="#" class="span hover-2">#Travel</a>
+    
+                          <a href="#" class="span hover-2">#Lifestyle</a>
+                        </div> -->
+    
+                        <div class="wrapper">
+                          <ion-icon name='trophy'></ion-icon>
+    
+                          <span class="span">Microsoft Cybersecurity Engage Mentee</span>
+                        </div>
+                      </div>
+    
+    
+                      <h3 class="headline headline-3">
+                        <a href="#" class="card-title hover-2">
+                          Certficate of Appreciation 
+                        </a>
+                      </h3>
+    
+                      <div class="card-wrapper">
+    
+                        <div class="profile-card">
+                          <img src="images\microsoft.jpg" width="48" height="48" loading="lazy" alt="Joseph"
+                            class="profile-banner">
+    
+                          <div>
+                            <p class="card-title">Ankit Kumar</p>
+    
+                            <p class="card-subtitle">June 2022</p>
+                          </div>
+                        </div>
+    
+                        <a href="images\Microsoft cyber.jpeg" class="card-btn">View</a>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+                <li>
+                  <div class="card feature-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                      <img src="images\NITJ.jpg" width="1602" height="903" loading="lazy"
+                        alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-wrapper">
+                        <!-- <div class="card-tag">
+                          <a href="#" class="span hover-2">#Travel</a>
+    
+                          <a href="#" class="span hover-2">#Lifestyle</a>
+                        </div> -->
+    
+                        <div class="wrapper">
+                          <ion-icon name='trophy'></ion-icon>
+    
+                          <span class="span">Winner Fresher's Category(Special Track)</span>
+                        </div>
+                      </div>
+    
+    
+                      <h3 class="headline headline-3">
+                        <a href="#" class="card-title hover-2">
+                          Certficate of Excellence(Hackmol 3.0)
+                        </a>
+                      </h3>
+    
+                      <div class="card-wrapper">
+    
+                        <div class="profile-card">
+                          <img src="images\logo.png" width="48" height="48" loading="lazy" alt="Joseph"
+                            class="profile-banner">
+    
+                          <div>
+                            <p class="card-title">Ankit Kumar</p>
+    
+                            <p class="card-subtitle">Feburary 2022</p>
+                          </div>
+                        </div>
+    
+                        <a href="https://certificate.givemycertificate.com/c/81067265-f009-42a1-bb6b-d5ed82d67b10" class="card-btn">View</a>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+                </ul>
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <!-- <img src="" width="500" height="1500" loading="lazy" alt="" class="feature-bg"> -->
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - # Skill section 
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Skills</span>
+          </h2>
+
+          <p class="section-text">
+            Industry Relevent Skills
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Travel">
+
+                <p class="btn-text">C++</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Culture">
+
+                <p class="btn-text">DSA</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Lifestyle">
+
+                <p class="btn-text">ML</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Fashion">
+
+                <p class="btn-text">Javascript</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Food">
+
+                <p class="btn-text">SQL</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Space">
+
+                <p class="btn-text">MongoDB</p>
+              </button>
+            </li>
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="./assets/images/tag8.png" width="32" height="32" loading="lazy" alt="Minimal"> -->
+
+                <p class="btn-text">Node.js</p>
+              </button>
+            </li>
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="images\logo.png" width="32" height="32" loading="lazy" alt="Animal"> -->
+
+                <p class="btn-text">communication</p>
+                  <button>
+            </li>
+
+           
+
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="./assets/images/tag9.png" width="32" height="32" loading="lazy" alt="Interior"> -->
+
+                <p class="btn-text">Instrumentation</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="./assets/images/tag10.png" width="32" height="32" loading="lazy" alt="Plant"> -->
+
+                <p class="btn-text">Control eng.</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="./assets/images/tag11.png" width="32" height="32" loading="lazy" alt="Nature"> -->
+
+                <p class="btn-text">HTML</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <!-- <img src="./assets/images/tag12.png" width="32" height="32" loading="lazy" alt="Business"> -->
+
+                <p class="btn-text">Css</p>
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+       <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Courses Certifications ans Tasks</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="images\tro.jpg" width="64" height="64" loading="lazy"
+                        alt="Creating is a privilege but it’s also a gift" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Full stack Web development (Udemy)</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <!-- <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time> -->
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="images\tro.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Machine Learning Specilization through Coursera by (Standford University) </a>
+                      </h4>
+
+                       <div class="warpper">
+                       
+                      </div> 
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="images\tro.jpg" width="64" height="64" loading="lazy"
+                        alt="Every day, in every city and town across the country" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Computer Science Fundamental Course (GFG)</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <!-- <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time> -->
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="images\tro.jpg" width="64" height="64" loading="lazy"
+                        alt="Your voice, your mind, your story, your vision" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Striver A to Z sheet (400 problems) </a>
+                      </h4>
+
+                      <div class="warpper">
+                        <!-- <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time> -->
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="images\tro.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Leetcode Top-150 interview questions</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <!-- <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">15 April 2022</time> -->
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+           
+            </div>
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <img src="images\logo.png" width="119" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Gallery
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\Img-1.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-2.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-3.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-4.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-5.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-6.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-7.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-8.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="images\img-9.jpeg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    
+        <div class="footer-bottom">
+
+         
+          <ul class="social-list">
+
+            <li>
+              <a href="mailto:ankasrk123@gmail.com" class="social-link"> Mail to Ankit
+                <ion-icon name="logo-Google"></ion-icon>
+
+                <span class="span">Email</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/ankit-kumar-41023b218/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/ankit.factech/`" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

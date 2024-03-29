@@ -1,0 +1,86 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(3, 220px);
+	justify-content: center;
+}
+li {
+	grid-column: span 2;
+	text-align: center;
+	border-radius: 65px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 1.5em;
+	font-family: sans-serif;
+	position: relative;
+	padding: 20px;
+	border: 20px solid #0000;
+	background: linear-gradient(#e71e07 0 0) content-box,
+		linear-gradient(var(--c, #fcd000) 0 0) padding-box,
+		linear-gradient(var(--d, 90deg), #0000 75%, #42b132 0) border-box;
+}
+li:nth-child(even) {
+	grid-column-end: -1;
+	--d: -90deg;
+	--c: #009cda;
+}
+li:not(:last-child) {
+	margin-bottom: -20px;
+}
+li:before,
+li:after {
+	content: "";
+	display: block;
+	height: 0.6em;
+}
+
+time {
+	position: absolute;
+	font-size: 0.65em;
+	left: calc(100% + 50px);
+	top: 50%;
+	transform: translateY(-50%);
+	white-space: nowrap;
+}
+li:nth-child(even) time {
+	left: auto;
+	color: #000;
+	right: calc(100% + 50px);
+}
+time:before {
+	content: "";
+	position: absolute;
+	height: 10px;
+	top: calc(50% - 5px);
+	right: calc(100% + 5px);
+	width: 65px;
+	background: repeating-linear-gradient(-90deg, #fcd000 0 5px, #0000 0 10px) 50%/100%
+		2px no-repeat;
+}
+li:nth-child(even) time:before {
+	right: auto;
+	left: calc(100% + 5px);
+	background: repeating-linear-gradient(90deg, #009cda 0 5px, #0000 0 10px) 50%/100%
+		2px no-repeat;
+}
+
+h1,
+p {
+	display: none;
+}
+
+html {
+	background: 
+		radial-gradient(farthest-side at top right, #42b132 98%, #0000)
+			calc(50% - 10px) 0/20px 20px no-repeat,
+		radial-gradient(farthest-side at bottom right, #42b132 98%, #0000)
+			calc(50% - 10px) 100%/20px 20px no-repeat,
+		linear-gradient(90deg, #fcd000 50%, #009cda 0);
+}
+
+body {
+	margin: 0;
+}
